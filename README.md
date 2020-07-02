@@ -5,3 +5,5 @@ Halaman ini bertujuan sebagai _shortcut_ untuk aplikasi-aplikasi yang berada pad
 Dibangun dengan menggunakan:
 - HTML5
 - TailwindCSS
+
+[gambar](https://raw.githubusercontent.com/statsulbardev/portal7600/master/image/screen.png)
