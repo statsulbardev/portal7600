@@ -9,7 +9,7 @@
 <body class="bg-gray-100">
     <div class="mt-12"></div>
     <section class="container mx-auto px-4 py-4">
-        <div class="grid grid-cols-2 grid-rows-2 gap-4">
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4">
             <div class="bg-white border-2 border-gray-200 rounded row-span-2 p-20">
                 <div class="mx-auto">
                     <p class="font-bold text-4xl">Portal Aplikasi.</p>
@@ -18,27 +18,35 @@
                         Seluruh aplikasi pada portal ini dikembangkan dan dipelihara oleh Bidang Integrasi Pengolahan dan Diseminasi Statisik.
                         Untuk mendapatkan bantuan, anda dapat menghubungi developer pada bidang IPDS melalui
                         <br><br>
-                        Portal layanan: <a class="text-gray-700" href="">https://webapps.bps.go.id/sulbar/bantuan/</a>
+                        Portal layanan: <a class="text-gray-700" href="">-</a>
                         <br>
                         Email: <span class="text-gray-700">statsulbar@gmail.com</span>
                     </p>
                 </div>
             </div>
             <div class="grid grid-cols-2 row-span-2 gap-4">
-                <div class="bg-gray-400 rounded">1</div>
-                <div class="bg-gray-400 rounded">1</div>
-                <div class="bg-gray-400 rounded">1</div>
-                <div class="bg-gray-400 rounded">1</div>
+                <a href="#web">
+                    <img class="w-full rounded" src="image/Aplikasi.png">
+                </a>
+                <a href="#android">
+                    <img class="w-full rounded" src="image/Android.png">
+                </a>
+                <a href="#dokumentasi">
+                    <img class="w-full rounded" src="image/Dokumentasi.png">
+                </a>
+                <a href="https://www.youtube.com/channel/UC73wsusIOKxJJrv17QLIhmw">
+                    <img class="w-full rounded" src="image/Video.png">
+                </a>
             </div>
         </div>
 
-        <!-- Daftar Aplikasi -->
-        <p class="mt-16 font-bold text-xl">Daftar Aplikasi</p>
-        <div class="mt-8 flex flex-wrap justify-between">
+        <!-- Daftar Aplikasi Web -->
+        <p id="web" class="mt-16 font-bold text-xl">Aplikasi Web</p>
+        <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <a href="https://webapps.bps.go.id/sulbar/spatula/">
-                <div class="bg-white border-2 border-gray-200 rounded max-w-xs overflow-hidden mb-4">
+                <div class="max-w-full bg-white border-2 border-gray-200 rounded overflow-hidden mb-4">
                     <div class="py-8">
-                        <img class="w-20 rounded-full mx-auto" src="icon/user.png" alt="icon">
+                        <img class="w-20 rounded-full mx-auto" src="image/user.png" alt="image">
                         <div class="px-6 pt-4 font-bold text-xl text-center">
                             <p class="text-md mb-2">Spatula</p>
                             <span class="text-gray-600 text-sm font-light leading-3">
@@ -49,9 +57,9 @@
                 </div>
             </a>
             <a href="https://webapps.bps.go.id/sulbar/sapota/">
-                <div class="bg-white border-2 border-gray-200 rounded max-w-xs overflow-hidden mb-4">
+                <div class="max-w-full bg-white border-2 border-gray-200 rounded overflow-hidden mb-4">
                     <div class="py-8">
-                        <img class="w-20 rounded-full mx-auto" src="icon/user.png" alt="icon">
+                        <img class="w-20 rounded-full mx-auto" src="image/user.png" alt="image">
                         <div class="px-6 pt-4 font-bold text-xl text-center">
                             <p class="text-md mb-2">Sapota</p>
                             <span class="text-gray-600 text-sm font-light leading-3">
@@ -62,9 +70,9 @@
                 </div>
             </a>
             <a href="https://webapps.bps.go.id/sulbar/itvalet/">
-                <div class="bg-white border-2 border-gray-200 rounded max-w-xs overflow-hidden mb-4">
+                <div class="max-w-full bg-white border-2 border-gray-200 rounded overflow-hidden mb-4">
                     <div class="py-8">
-                        <img class="w-20 rounded-full mx-auto" src="icon/user.png" alt="icon">
+                        <img class="w-20 rounded-full mx-auto" src="image/user.png" alt="image">
                         <div class="px-6 pt-4 font-bold text-xl text-center">
                             <p class="text-md mb-2">ITValet</p>
                             <span class="text-gray-600 text-sm font-light leading-3">
@@ -75,9 +83,9 @@
                 </div>
             </a>
             <a href="https://webapps.bps.go.id/sulbar/surat/">
-                <div class="bg-white border-2 border-gray-200 rounded max-w-xs overflow-hidden mb-4">
+                <div class="max-w-full bg-white border-2 border-gray-200 rounded overflow-hidden mb-4">
                     <div class="py-8">
-                        <img class="w-20 rounded-full mx-auto" src="icon/user.png" alt="icon">
+                        <img class="w-20 rounded-full mx-auto" src="image/user.png" alt="image">
                         <div class="px-6 pt-4 font-bold text-xl text-center">
                             <p class="text-md mb-2">Silatik</p>
                             <span class="text-gray-600 text-sm font-light leading-3">
@@ -88,6 +96,43 @@
                 </div>
             </a>
         </div>
+
+        <!-- Daftar Aplikasi Android -->
+        <p id="android" class="mt-16 font-bold text-xl">Aplikasi Android</p>
+        <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <a href="https://play.google.com/store/apps/details?id=id.go.bps.sulbar.dasita">
+                <div class="max-w-full bg-white border-2 border-gray-200 rounded overflow-hidden mb-4">
+                    <div class="py-8">
+                        <img class="w-20 rounded-full mx-auto" src="image/user.png" alt="image">
+                        <div class="px-6 pt-4 font-bold text-xl text-center">
+                            <p class="text-md mb-2">Dasita Marasa</p>
+                            <span class="text-gray-600 text-sm font-light leading-3">
+                                Data Provinsi Sulawesi Barat Di Tangan Anda
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Daftar Dokumentasi -->
+        <p id="dokumentasi" class="mt-16 font-bold text-xl">Dokumentasi</p>
+        <div class="mt-8 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <a href="#">
+                <div class="max-w-full bg-white border-2 border-gray-200 rounded overflow-hidden mb-4">
+                    <div class="py-8">
+                        <img class="w-20 rounded-full mx-auto" src="image/user.png" alt="image">
+                        <div class="px-6 pt-4 font-bold text-xl text-center">
+                            <p class="text-md mb-2">Mesin Handkey</p>
+                            <span class="text-gray-600 text-sm font-light leading-3">
+                                Dokumentasi teknis mesin handkey serta perangkat lunaknya
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
         <div class="text-center mt-10">
             <p class="text-xl font-bold text-gray-600 mb-4">Dibangun oleh:</p>
             <img src="" alt="BPS Provinsi Sulawesi Barat">
