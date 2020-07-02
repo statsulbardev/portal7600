@@ -6,4 +6,4 @@ Dibangun dengan menggunakan:
 - HTML5
 - TailwindCSS
 
-[gambar](https://raw.githubusercontent.com/statsulbardev/portal7600/master/image/screen.png)
+![Screenshot](https://raw.githubusercontent.com/statsulbardev/portal7600/master/image/screen.png)
